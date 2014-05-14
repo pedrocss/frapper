@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Frapper")]
-[assembly: AssemblyDescription("Minimalistic ffmpeg wrapper C#")]
+[assembly: AssemblyDescription("Minimalist ffmpeg wrapper C#")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Pedro Souza")]
 [assembly: AssemblyProduct("Frapper")]
