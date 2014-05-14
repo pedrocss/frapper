@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Frapper</id>
-    <version>1.0.0</version>
+    <version>1.0.4</version>
     <title>Frapper</title>
     <authors>Pedro Souza</authors>
     <owners>Pedro Souza</owners>
@@ -15,4 +15,7 @@
     <copyright>Copyright 2014</copyright>
     <tags>FFMPEG Wrapper C# Video Audio Multimedia</tags>
   </metadata>
+  <files>
+    <file src="bin\Debug\Frapper.dll" target="lib\net35\Frapper.dll" />
+  </files>
 </package>
