@@ -82,13 +82,13 @@ namespace Frapper
                 //run the process
                 Process proc = System.Diagnostics.Process.Start(oInfo);
 
-                proc.WaitForExit();
-
                 //get the output
                 srOutput = proc.StandardError;
 
                 //now put it in a string
                 output = srOutput.ReadToEnd();
+
+                proc.WaitForExit();
 
                 proc.Close();
             }
